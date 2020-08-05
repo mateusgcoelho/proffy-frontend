@@ -69,7 +69,9 @@
     display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
+    text-decoration: none;
+
     width: 20rem;
     height: 5.6rem;
 
@@ -89,7 +91,7 @@
     transition: background-color 0.2s;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer a:hover {
     background: var(--color-secundary-dark);
 }
 
